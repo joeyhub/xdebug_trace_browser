@@ -35,7 +35,7 @@ Using xdebug facilities with an IDE, etc can be tricky.
 
 A web based tool can have significant advantages in terms of access to resources.
 
-It can directly access trace files produces by xdebug on a server with no transfere mechanism necessary.
+It can directly access trace files produced by xdebug on a server with no transfere mechanism necessary.
 
 It can also directly access the relevant source files with far less path related issues (though analysising something after an update can cause skew).
 

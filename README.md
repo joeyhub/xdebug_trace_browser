@@ -56,4 +56,4 @@ Possible Roadmap:
 * Use computer readable trace format.
 * Decide on portability?
 * Search boxes for traces.
-* Replay ability for traces.
+* Replay ability for traces (amusement feature, could also link to output as a third view).

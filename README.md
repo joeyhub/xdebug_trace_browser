@@ -18,9 +18,9 @@ Use cases:
 
 This tool can be useful when dealing with libraries and frameworks in PHP that are highly layered, convoluted and make use of metacoding principles or are general dynamic meaning that mean certain characteristics can only be determined in runtime.
 
-It is great simply to review what an unfamiliar framework might be doing in general such a bootstrap, etc.
+It is great to review what an unfamiliar framework might be doing in general such a bootstrap, etc.
 
-Where as a typical realtime debug process involves running through, adding break points, debug output, etc, this tool allows quick and casual browsing of a programs execution.
+Where as a typical realtime debug process involves running through, adding break points, debug output, etc, this tool allows quick and casual browsing of a program's execution. If seeking out the cause of a bug that may be located anywhere, the speed in which this allows a trace to be browsed can be very useful.
 
 This should be avoided for processes with a very high number of calls however as trace files can include a lot of data.
 
@@ -41,12 +41,17 @@ It can also directly access the relevant source files with far less path related
 
 For real time debugging, if this were added, networking and firewall rules as well as IDE setup would not be needed. node-inspector is recommended as inspiration for what a PHP debugger might look like.
 
+This library's functionality crosses over somewhat with that of profiler viewers. It should avoid providing profiling functionality and stay focused on debugging.
+
 Possible Roadmap:
 
 * Use simpler frontend than ExtJS. This was not chosen for any significant technical reason. It was chosen to review the library in general.
 * Implement more on demand operations rather than loading entire datasets.
 * Support partial traces (that start and end on depths other than 0).
-* Clean up structure and remove mysterious oddities causes by copying and stripping down years old pieces of code to get th first prototype working.
+* Clean up structure and remove mysterious oddities caused by copying and stripping down years old pieces of code to get the first prototype working.
 * Make packagable with composer, etc and use this for fetching dependencies. Similar for JS.
 * Add support for real time debugging. May need modification of the xdebug extension.
 * Use computer readable trace format.
+* Decide on portability?
+* Search boxes for traces.
+* Replay ability for traces.

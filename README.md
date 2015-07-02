@@ -45,6 +45,8 @@ In summary, this tool's key purpose is to make it easy to make use of xdebug.
 
 This library's functionality crosses over somewhat with that of profiler viewers. It should avoid providing profiling functionality and stay focused on debugging.
 
+On a side note, if you just need to see function calls without parameters and extra information, profiles opened with wincachegrind work really well.
+
 Possible Roadmap:
 
 * Use simpler frontend than ExtJS. This was not chosen for any significant technical reason. It was chosen to review the library in general.

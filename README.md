@@ -41,6 +41,8 @@ It can also directly access the relevant source files with far less path related
 
 For real time debugging, if this were added, networking and firewall rules as well as IDE setup would not be needed. node-inspector is recommended as inspiration for what a PHP debugger might look like.
 
+In summary, this tool's key purpose is to make it easy to make use of xdebug.
+
 This library's functionality crosses over somewhat with that of profiler viewers. It should avoid providing profiling functionality and stay focused on debugging.
 
 Possible Roadmap:

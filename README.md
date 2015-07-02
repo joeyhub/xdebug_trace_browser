@@ -14,6 +14,16 @@ Only tested in PHP 5.4.
 
 Experimental.
 
+Use cases:
+
+This tool can be useful when dealing with libraries and frameworks in PHP that are highly layered, convoluted and make use of metacoding principles or are general dynamic meaning that mean certain characteristics can only be determined in runtime.
+
+It is great simply to review what an unfamiliar framework might be doing in general such a bootstrap, etc.
+
+Where as a typical realtime debug process involves running through, adding break points, debug output, etc, this tool allows quick and casual browsing of a programs execution.
+
+This should be avoided for processes with a very high number of calls however as trace files can include a lot of data.
+
 Purpose:
 
 * This tool can provide inspiration on how to improve PHP debugability.
@@ -23,7 +33,7 @@ Rationale:
 
 Using xdebug facilities with an IDE, etc can be tricky.
 
-A webbased tool can have significant advantages in terms of access to resources.
+A web based tool can have significant advantages in terms of access to resources.
 
 It can directly access trace files produces by xdebug on a server with no transfere mechanism necessary.
 

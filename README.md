@@ -55,5 +55,6 @@ Possible Roadmap:
 * Add support for real time debugging. May need modification of the xdebug extension.
 * Use computer readable trace format.
 * Decide on portability?
+* Fixed mixed whitespace.
 * Search boxes for traces.
 * Replay ability for traces (amusement feature, could also link to output as a third view).

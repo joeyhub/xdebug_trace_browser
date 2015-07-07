@@ -8,6 +8,8 @@ Third party libs may also be included with this. Please read their licenses care
 
 This is a first proof of concept version of an xdebug trace browser.
 
+It also requires the PHP extension xdebug to generate trace files.
+
 It is not safe to install this on a public web server.
 
 Only tested in PHP 5.4 and firefox.
